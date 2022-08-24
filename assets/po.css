@@ -1,64 +1,64 @@
 html,
 body {
-    height: 100%;
-    background-image: url(../background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    color: #ffffff;
+  height: 100%;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  color: #ffffff;
 }
 
 .header {
-    color: #ffffff;
-    font-family: Candara;
-    font-size: 72px;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 25px;
-    margin-top: 0;
-
-
+  color: #ffffff;
+  font-family: Candara;
+  font-size: 72px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  margin-top: 0;
 }
 
 .row {
-    display: inline-block;
-    justify-content: center;
-    margin-top: 15px;
+  display: inline-block;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.btn {
+    
 }
 
 .sidebar-2__menu__item {
-    font-size: 25px;
-    border-radius: 5px;
-    width: 100%;
-    min-height: 1px;
-    color: #f0f8ff;
-    padding: 10px 20px;
-    margin: 0;
-    font-weight: 400;
-    line-height: 1.5;
+  font-size: 25px;
+  border-radius: 5px;
+  width: 100%;
+  min-height: 1px;
+  color: #f0f8ff;
+  padding: 10px 20px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .sidebar-2__menu__item:first-child {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .sidebar-2__menu__item:last-child {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .sidebar-2__menu-item:hover {
-    background-color: #008b8b;
-    text-decoration: underline;
-
+  background-color: #008b8b;
+  text-decoration: underline;
 }
 
 .content {
-    color: #f0f8ff;
-    font-size: 35px;
+  color: #f0f8ff;
+  font-size: 35px;
 }
 
 .footer {
-    color: #ffffff;
-    font-size: 15px;
-
+  color: #ffffff;
+  font-size: 15px;
 }

@@ -107,31 +107,22 @@
 
       <div class="row">
         <div class="menu">
-          <div class="btn-group">
-            <button
-              type="button"
-              class="btn btn-success dropdown-toggle"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Переходы
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="Main">Главная</a>
-              <a class="dropdown-item" href="Films">Экранизации произведений</a>
-              <a class="dropdown-item" href="The most interesting works"
-                >Наиболее интересные работы</a
-              >
-              <a class="dropdown-item" href="Contests">Конкурсы</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">А также...</a>
-            </div>
-          </div>
+            <div class="dropdown">
+                <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Узнать больше
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item active" href="Main">Главная</a></li>
+                  <li><a class="dropdown-item" href="Films">Экранизации произведений</a></li>
+                  <li><a class="dropdown-item" href="The_most_interesting_works">Наиболее интересные работы</a></li>
+                </ul>
+              </div>
         </div>
       </div>
     </div>
-
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/dropdown.js"></script>
+    <script src="./js/button.js"></script>
   </body>
 </html>
