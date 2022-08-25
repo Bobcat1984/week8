@@ -1,10 +1,8 @@
 body {
-
+background-color: blueviolet;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
     background-color: aqua;
 }
 
@@ -15,11 +13,4 @@ a.navbar-brand {
     font-size: 16px;
     text-decoration: none;
     color: #000000;
-}
-.item_purple {
-
-}
-
-.item_red {
-
 }
