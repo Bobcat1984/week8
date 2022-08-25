@@ -23,6 +23,9 @@
   max-width: 40rem;
 }
 
+.album > .container {
+    width: 80%;
+}
 .card-title {
     display: flex;
     justify-content: center;
