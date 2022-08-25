@@ -17,12 +17,16 @@ a.navbar-brand {
 }
 
 main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-row: 10% 1fr 20%;
+    display: grid;
+    width: 800px;
+    grid-template-columns: 10% repeat(auto-fit, minmax(3, 1fr));
+    grid-template-rows: repeat(2, 150px);
+    gap: 1rem;
   background-color: cornflowerblue;
 }
-
+.container {
+   
+  }
 h1 {
   font-family: "Intro ";
   font-style: normal;
