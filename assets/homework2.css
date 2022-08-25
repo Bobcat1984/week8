@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.navbar-brand {
+    font-family: 'Intro ';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    color: #000000;
+}
+.item_purple {
+
+}
+
+.item_red {
+
+}
