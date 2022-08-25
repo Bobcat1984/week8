@@ -1,13 +1,18 @@
-.header {
+body {
+
+}
+
+header {
     display: flex;
     justify-content: space-between;
+    background-color: aqua;
 }
 
 a.navbar-brand {
     font-family: 'Intro ';
     font-style: normal;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 16px;
     text-decoration: none;
     color: #000000;
 }
