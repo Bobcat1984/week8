@@ -20,6 +20,8 @@ a.navbar-brand {
 
 main {
   display: grid;
+  grid-column: 1;
+  grid-row: 2;
   width: 800px;
   grid-template-columns: 10% repeat(auto-fit, minmax(3, 1fr));
   grid-template-rows: repeat(2, 150px);
@@ -74,5 +76,16 @@ footer {
     display: grid;
     grid-column: 1;
     grid-row: 3;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    /* identical to box height, or 32px */
+    
+    
+    /* Основной текст */
+    
+    color: #000000;
     background-color: aliceblue;
 }
