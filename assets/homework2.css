@@ -3,7 +3,6 @@ body {
 }
 
 header {
-
   background-color: aqua;
 }
 
@@ -17,16 +16,14 @@ a.navbar-brand {
 }
 
 main {
-    display: grid;
-    width: 800px;
-    grid-template-columns: 10% repeat(auto-fit, minmax(3, 1fr));
-    grid-template-rows: repeat(2, 150px);
-    gap: 1rem;
+  display: grid;
+  width: 800px;
+  grid-template-columns: 10% repeat(auto-fit, minmax(3, 1fr));
+  grid-template-rows: repeat(2, 150px);
+  gap: 1rem;
   background-color: cornflowerblue;
 }
-.container {
-   
-  }
+
 h1 {
   font-family: "Intro ";
   font-style: normal;
@@ -34,6 +31,36 @@ h1 {
   font-size: 60px;
   line-height: 120%;
   /* identical to box height, or 72px */
+
+  /* Основной текст */
+
+  color: #000000;
+}
+
+div > img {
+  background-image: url(./Rectangle\ 11.svg);
+}
+
+h5 {
+  font-family: "Intro ";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  /* identical to box height, or 36px */
+
+  /* Основной текст */
+
+  color: #000000;
+}
+
+p.card-text {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 32px */
 
   /* Основной текст */
 
