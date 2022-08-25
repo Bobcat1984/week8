@@ -1,16 +1,39 @@
 body {
-background-color: blueviolet;
+  background-color: blueviolet;
 }
 
 header {
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  background-color: aqua;
 }
 
 a.navbar-brand {
-    font-family: 'Intro ';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none;
-    color: #000000;
+  font-family: "Intro ";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: 10% 1fr 20%;
+  background-color: cornflowerblue;
+}
+
+h1 {
+  font-family: "Intro ";
+  font-style: normal;
+  font-weight: extra-bold;
+  font-size: 60px;
+  line-height: 120%;
+  /* identical to box height, or 72px */
+
+  /* Основной текст */
+
+  color: #000000;
 }
